@@ -1,12 +1,8 @@
 function btn() {
   document.body.style.backgroundColor = "teal";
+  document.querySelector("h1").style.color = "white";
+  document.querySelector("h2").style.color = "white";
 }
-
-const mouse = document.querySelector("h1");
-
-mouse.addEventListener("mouseover", function () {
-  mouse.style.color = "red";
-});
 
 const otherTitle = document.querySelector("h2");
 
